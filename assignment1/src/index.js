@@ -33,14 +33,6 @@ const superEventHandler = {
   },
 };
 
-// const title = document.querySelector('h2');
-// title.addEventListener('mouseover', this.titleMouseOver);
-// const superEventHandler = {
-//   titleMouseOver: function () {
-//     this.style.color = colors[0];
-//   },
-// };
-
 function init() {
   const title = document.querySelector('h2');
   title.addEventListener('mouseenter', superEventHandler.handleMouseEnter);
